@@ -9,5 +9,14 @@
     <script src="../dist/jp-slot.umd.js"></script>
 </head>
 <body>
+    <script>
+        for (let i = 0; i < 1000; i++) {
+            let result = jpSlot.drawing();
+
+            if (result.index <= 5) {
+                console.log(i + '回転目:' + result.item);
+            }
+        }
+    </script>
 </body>
 </html>
