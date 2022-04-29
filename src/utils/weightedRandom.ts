@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return */
-export default function weightedRandom(items: any[], weights: number[]): {item: any, index: number} {
+export function weightedRandom(items: any[], weights: number[]): {item: any, index: number} {
     if (items.length !== weights.length) {
       throw new Error('Items and weights must be of the same size');
     }

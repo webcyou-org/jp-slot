@@ -1,7 +1,7 @@
 {
     "name": "@webcyou-org/jp-slot",
     "version": "0.0.1",
-    "description": "",
+    "description": "Japanese Slot Machine",
     "keywords": ["mediaquery", "attribute", "change"],
     "main": "dist/jp-slot.umd.js",
     "module": "dist/jp-slot.es.js",
